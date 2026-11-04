@@ -8,7 +8,7 @@
 
     <groupId>com.jmtrading</groupId>
     <artifactId>trading-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 
     <packaging>pom</packaging>
 
@@ -34,7 +34,7 @@
             <dependency>
                 <groupId>com.jmtrading</groupId>
                 <artifactId>trading-bom</artifactId>
-                <version>1.0.0</version>
+                <version>1.1.0</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -59,9 +59,7 @@
                     <configuration>
 
                         <release>${java.version}</release>
-
                         <parameters>true</parameters>
-
                         <annotationProcessorPaths>
 
                             <path>
